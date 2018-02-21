@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ToggleButton
+        android:id="@+id/tgle_section_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/edit_text"
+        android:checked="false"/>
+    <RelativeLayout
+        android:id="@+id/lyt_section_body"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text view showing expanded accordion view and its body content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</LinearLayout>
